@@ -1,0 +1,27 @@
+{
+  "name": "at-sms-airtime-client-app-js",
+  "version": "1.0.0",
+  "description": "A codelab to build an application that can purchase airtime and send SMS with the Africa’s Talking APIs in the FSI Sandbox",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server --baseDir='src'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fsi-sandbox/at-sms-airtime-client-app-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fsi-sandbox/at-sms-airtime-client-app-js/issues"
+  },
+  "homepage": "https://github.com/fsi-sandbox/at-sms-airtime-client-app-js#readme",
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "lite-server": "^2.6.1",
+    "prettier": "^2.2.1"
+  }
+}
