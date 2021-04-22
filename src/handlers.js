@@ -2,7 +2,7 @@ let sendingSMS = false;
 let buyingAirtime = false;
 
 let notificationPerm;
-const BACKEND = 'http://localhost:8080';
+const BACKEND = 'https://airsyms.herokuapp.com';
 
 const notify = (message) => {
   // eslint-disable-next-line no-console
