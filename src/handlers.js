@@ -44,7 +44,7 @@ export const sendSMS = async (form) => {
 
   try {
     sendingSMS = true;
-    const response = await fetch(`${BACKEND}/send-sms`, {
+    const response = await fetch(`${BACKEND}/sms/send-sms`, {
       method: 'post',
       body: JSON.stringify({
         to,
@@ -78,7 +78,7 @@ export const buyAirtime = async (form) => {
 
   try {
     buyingAirtime = true;
-    const response = await fetch(`${BACKEND}/buy-airtime`, {
+    const response = await fetch(`${BACKEND}/airtime/buy-airtime`, {
       method: 'post',
       body: JSON.stringify({
         amount,

@@ -4,7 +4,7 @@ A codelab to build a simple application that can purchase airtime and send SMS w
 
 Live Demo: [https://airsyms.netlify.app/](https://airsyms.netlify.app/)
 <br />
-Complete Tutorial: [http://codelabs.fsi.ng/](http://codelabs.fsi.ng/)
+Complete Tutorial: See the lab on [http://codelabs.fsi.ng/](http://codelabs.fsi.ng/)
 
 
 <img src="src/images/app-screen.png">
